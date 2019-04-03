@@ -1,15 +1,58 @@
 <!DOCTYPE html>         
 <html lang="en">
     <head>
-    <meta charset="utf-8">
-    <title>Game</title>
-    <style>
-        body {
-            background-color: aqua;
-        }
-    </style>
+        <meta charset="utf-8">
+        <title>Game</title>
+        <style>
+            body {
+                background-color: aqua;
+            }
+        </style>
     </head>
     <body>
-        <h1>hola</h1>
+        <div>
+                <div>
+            
+                </div>
+                <div>
+                    
+                </div>
+                <div>
+                        
+                </div>
+                <div>
+                        
+                </div>
+                 <div>
+                        
+                </div>
+                <div>
+        
+                </div>
+                <div>
+                            
+                </div>
+                <div>
+                            
+                </div>
+                <div>
+        
+                </div>
+                <div>
+                            
+                </div>
+                <div>
+                            
+                </div>
+                <div>
+        
+                </div>
+                <div>
+                                
+                </div>
+                <div>
+                                
+                </div>
+        </div>    
     </body>
 </html>       
