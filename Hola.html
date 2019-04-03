@@ -3,64 +3,56 @@
 <head>
     <meta charset="utf-8">
     <title>Game</title>
-    <style>
-        body {
-            background-color:cyan;
-        }
-
-        #boxes {
-            background-color:lightgreen;
-            height: 500px;
-            width: 500px;
-        }
-
-        .box-div {
-            width: 31%;
-            height: 31%;
-            margin: 10px;
-            display:flex;
-            background-color: white;
-        }
-
-        .top { align-items: flex-start; }
-        .middle { align-items: center; }
-        .bottom { align-items: flex-end; }
-
-        .left { justify-content: flex-start; }
-        .center { justify-content: center; }
-        .right { justify-content: flex-end; }
-    </style>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
     <div id="boxes">
         <div class="box-div top left top-left">
-            <p>o</p>
+            <div class="box-inner-div">
+                <span>o</span>
+            </div>
         </div>
         <div class="box-div top center top-center">
-            <p>o</p>
+            <div class="box-inner-div">
+                <span>o</span>
+            </div>
         </div>
         <div class="box-div top right top-right">
-            <p></p>
+            <div class="box-inner-div">
+                <span></span>
+            </div>
         </div>
 
         <div class="box-div middle left middle-left">
-            <p>o</p>
+            <div class="box-inner-div">
+                <span>o</span>
+            </div>
         </div>
         <div class="box-div middle center middle-center">
-            <p>x</p>
+            <div class="box-inner-div">
+                <span>x</span>
+            </div>
         </div>
         <div class="box-div middle right middle-right">
-            <p>x</p>
+            <div class="box-inner-div">
+                <span>x</span>
+            </div>
         </div>
 
         <div class="box-div bottom left bottom-left">
-            <p></p>
+            <div class="box-inner-div">
+                <span></span>
+            </div>
         </div>
         <div class="box-div bottom center bottom-center">
-            <p></p>
+            <div class="box-inner-div">
+                <span></span>
+            </div>
         </div>
         <div class="box-div bottom right bottom-right">
-            <p>x</p>
+            <div class="box-inner-div">
+                <span>x</span>
+            </div>
         </div>
     </div>
 </body>
